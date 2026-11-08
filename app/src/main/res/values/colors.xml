@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="hijau_utama">#16A34A</color>
+    <color name="hijau_muda">#E8F5E9</color>
+    <color name="oranye_muda">#FFF1DC</color>
+    <color name="oranye_tua">#B45309</color>
+    <color name="merah_muda">#FDE2E2</color>
+    <color name="merah_tua">#DC2626</color>
+    <color name="latar">#F8FAF9</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="teks_utama">#111827</color>
+    <color name="teks_abu">#6B7280</color>
+</resources>

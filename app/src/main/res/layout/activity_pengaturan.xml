@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootPengaturan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pengaturan"
+            android:textColor="@color/teks_utama"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Nama pengguna"
+            android:textColor="@color/teks_abu" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan nama"
+            android:inputType="textPersonName"
+            android:textColor="@color/teks_utama" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Batas stok menipis"
+            android:textColor="@color/teks_abu" />
+
+        <EditText
+            android:id="@+id/etBatas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contoh: 2"
+            android:inputType="number"
+            android:textColor="@color/teks_utama" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Urutan daftar"
+            android:textColor="@color/teks_abu" />
+
+        <RadioGroup
+            android:id="@+id/rgUrutan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama A-Z"
+                android:textColor="@color/teks_utama" />
+
+            <RadioButton
+                android:id="@+id/rbTersedikit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stok tersedikit"
+                android:textColor="@color/teks_utama" />
+
+            <RadioButton
+                android:id="@+id/rbTerbanyak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stok terbanyak"
+                android:textColor="@color/teks_utama" />
+        </RadioGroup>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:text="Simpan"
+            app:cornerRadius="16dp" />
+    </LinearLayout>
+</ScrollView>

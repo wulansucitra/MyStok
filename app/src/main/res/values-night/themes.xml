@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Sisabahan" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/hijau_utama</item>
+        <item name="colorSecondary">@color/hijau_utama</item>
+        <item name="colorOnPrimary">@color/putih</item>
+        <item name="android:windowBackground">@color/latar</item>
+    </style>
+</resources>
